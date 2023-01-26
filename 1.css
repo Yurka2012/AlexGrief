@@ -1,0 +1,21 @@
+ul{
+	list-style-type: none;	
+	display: inline;
+}
+li{
+	display: inline;
+	margin: 1px;
+}
+html{
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	transition: 1s;
+	color: blueviolet;
+	background-color: yellowgreen;
+}
+a:hover{
+	color: yellow;
+	background-color: blueviolet;
+}
