@@ -38,9 +38,8 @@ a:hover{
 /* 	background: rgba(213, 199, 129, 100); */
 }
 #donateCard{
-/* 	в этом пиши стили */
+/* 	 */
 	transition: 1s;
-}
-#donateCard:hover{
-/* 	в этом напишу их я */
+	color: red;
+/*	тут */
 }
