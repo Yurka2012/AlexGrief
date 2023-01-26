@@ -1,10 +1,13 @@
 ul{
 	list-style-type: none;	
-	display: inline;
+	margin: 0;
+	width: 100%;
+	background: rgba(111, 73, 73, 0.5);
 }
 li{
 	display: inline;
 	margin: 1px;
+
 }
 html{
 	text-align: center;
@@ -14,8 +17,10 @@ a{
 	transition: 1s;
 	color: blueviolet;
 	background-color: yellowgreen;
+	border-radius: 7px;
 }
 a:hover{
 	color: yellow;
 	background-color: blueviolet;
+	border-radius: 30px;
 }
