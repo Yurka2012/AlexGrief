@@ -11,16 +11,36 @@ li{
 }
 html{
 	text-align: center;
+	background: #1eb8cc;
 }
 a{
 	text-decoration: none;
 	transition: 1s;
-	color: blueviolet;
-	background-color: yellowgreen;
+	color: #8400ff;
+	background-color: #9cd52a;
 	border-radius: 7px;
 }
 a:hover{
-	color: yellow;
-	background-color: blueviolet;
+	color: #feff00;
+	background-color: #8b2be2;
 	border-radius: 30px;
+}
+.card{
+	display: block;
+	border-radius: 15px;
+	background: rgba(283, 33, 209, 100);
+	width: 150px;
+	margin-left: 35%;
+}
+#cardText{
+	border-radius: 15px;
+	color: #fff82e;
+/* 	background: rgba(213, 199, 129, 100); */
+}
+#donateCard{
+/* 	в этом пиши стили */
+	transition: 1s;
+}
+#donateCard:hover{
+/* 	в этом напишу их я */
 }
